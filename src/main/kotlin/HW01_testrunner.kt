@@ -15,6 +15,9 @@ class TestFunV2 {
     fun afterAll() {
         println("After method called")
     }
+    fun ALLafter() {
+        println("ALL After method called")
+    }
 
     fun testMethod() {
         println("Test method called")
@@ -30,6 +33,9 @@ class TestFunV2 {
 
     fun before242() {
         println("before method called")
+    }
+    fun b242before() {
+        println("b242before method called")
     }
 
     fun beforeTest() {
